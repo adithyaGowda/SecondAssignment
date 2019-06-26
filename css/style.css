@@ -1,0 +1,236 @@
+.carousel-caption h3 {
+    font-family: "Lobster", cursive;
+    font-size: 80px;
+    color: #369497;
+    text-shadow: rgb(245, 242, 242) 1px 0 2px;
+    text-decoration: underline;
+}
+.carousel-caption p {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+.carousel-caption {
+    padding-bottom: 150px;
+}
+.gallery-container h1{
+    padding: 50px 0px 40px 0px;
+}
+.gallery-container p{
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .carousel-caption h3 {
+      font-size: 20px;
+      text-shadow: none;
+
+    }
+    .carousel-caption p {
+      font-size: 10px;
+  }
+}
+.container .gallery-container h1 , section h1, aside h3, .map-title {
+    font-family: "Lobster", cursive;
+    color: #369497;
+    text-decoration: underline;
+}
+.container .gallery-container p, section .row .col-sm p, article p {
+    font-family: "Dancing Script", cursive;
+}
+section h1 {
+    padding: 100px 0px 50px 0px;
+}
+section .row .col-sm p h3 {
+    font-family: "Lobster", cursive;
+}
+section .row .col-sm p {
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+article p {
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+article h1 {
+    padding: 80px 0px 50px 0px;
+    font-family: "Lobster", cursive;
+    color: #8f582c;
+    text-decoration: underline;
+}
+article {
+    background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 84%);
+}
+/* footer */
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
+body {
+ font-family:"Rubik",sans-serif;
+ position:relative;
+ font-weight:400;
+ font-size:15px
+}
+ul {
+ padding:0;
+ margin:0
+}
+li {
+ list-style:none
+}
+a:focus,a:hover {
+ text-decoration:none;
+ -webkit-transition:.3s ease;
+ -o-transition:.3s ease;
+ transition:.3s ease
+}
+a:focus {
+ outline:0
+}
+img {
+ max-width:100%
+}
+p {
+ font-size:16px;
+ line-height:30px;
+ color:#898b96;
+ font-weight:300
+}
+h4 {
+ font-family:Rubik,sans-serif;
+ margin:0;
+ font-weight:400;
+ padding:0;
+ color:#363940
+}
+a {
+ color:#5867dd
+}
+.no-padding {
+ padding:0!important
+}
+.go_top {
+ line-height:40px;
+ cursor:pointer;
+ width:40px;
+ background:#45dac6;
+ color:#fff;
+ position:fixed;
+ -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
+ box-shadow:0 4px 4px rgba(0,0,0,.1);
+ -webkit-border-radius:50%;
+ border-radius:50%;
+ right:-webkit-calc((100% - 1140px)/ 2);
+ right:calc((100% - 1140px)/ 2);
+ z-index:111;
+ bottom:80px;
+ text-align:center
+}
+.go_top span {
+ display:inline-block
+}
+.footer-big {
+ padding:105px 0 65px 0
+}
+.footer-big .footer-widget {
+ margin-bottom:40px
+}
+.footer--light {
+ background: #303036;
+}
+.footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
+ color:#898b96
+}
+.footer-menu {
+ padding-left:48px
+}
+.footer-menu ul li a {
+ font-size:15px;
+ line-height:32px;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s
+}
+.footer-menu ul li a:hover {
+ color:#5867dd
+}
+.footer-menu--1 {
+ width:100%
+}
+.footer-widget-title {
+ line-height:42px;
+ margin-bottom:10px;
+ font-size:18px;
+ color: #ccccff;
+}
+.mini-footer {
+ background:#192027;
+ text-align:center;
+ padding:32px 0
+}
+.mini-footer p {
+ margin:0;
+ line-height:26px;
+ font-size:15px;
+ color:#999
+}
+.mini-footer p a {
+ color:#5867dd
+}
+.mini-footer p a:hover {
+ color:#34bfa3
+}
+.widget-about img {
+ display:block;
+ margin-bottom:30px
+}
+.widget-about p {
+ font-weight:400
+}
+.widget-about .contact-details {
+ margin:30px 0 0 0
+}
+.widget-about .contact-details li {
+ margin-bottom:10px
+}
+.widget-about .contact-details li:last-child {
+ margin-bottom:0
+}
+.widget-about .contact-details li span {
+ padding-right:12px
+}
+.widget-about .contact-details li a {
+ color:#5867dd
+}
+@media (max-width:991px) {
+ .footer-menu {
+  padding-left:0
+ }
+}
+
+aside .nav .nav-item .nav-link .fab {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.tut_rightbox .heading {
+    font-family: "Lobster", cursive;
+    color: #8f582c;
+    text-decoration: underline;
+}
+.tut_rightbox p{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;  
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    
+}
